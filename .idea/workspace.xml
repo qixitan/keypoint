@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09123f4a-4a87-49cb-813f-36a8a98bcb12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AIVirtualMouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIVirtualMouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FingerCountingProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/FingerCountingProject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualPainter.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualPainter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolumeHandControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeHandControl.py" afterDir="false" />
-    </list>
+    <list default="true" id="09123f4a-4a87-49cb-813f-36a8a98bcb12" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AIVirtualMouse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="679">
               <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#146#156#0" expanded="true" />
@@ -281,12 +276,12 @@
       <workItem from="1659842684741" duration="36000" />
       <workItem from="1659842724641" duration="3150000" />
       <workItem from="1659845919839" duration="169000" />
-      <workItem from="1659846102269" duration="5214000" />
+      <workItem from="1659846102269" duration="5237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36397000" />
+    <option name="totallyTimeSpent" value="36420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -297,7 +292,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966924" visible="true" weight="0.36808512" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966924" weight="0.36808512" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944875" weight="0.3981289" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AIVirtualMouse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="679">
           <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding>
             <element signature="e#146#156#0" expanded="true" />
