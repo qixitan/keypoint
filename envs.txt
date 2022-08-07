@@ -1,0 +1,6 @@
+opencv-python==4.5.1.38
+mediapipe
+ctypes
+comtypes
+pycaw
+autopy
