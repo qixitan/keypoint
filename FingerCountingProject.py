@@ -19,7 +19,7 @@ if __name__ == '__main__':
     while True:
         success, img = cap.read()
         img = detector.findHands(img, True)
-        lmList = detector.findPosition(img, False)
+        lmList, _ = detector.findPosition(img, False)
         # print(lmList)
         if len(lmList) != 0:
             fingers = []

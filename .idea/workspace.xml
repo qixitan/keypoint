@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09123f4a-4a87-49cb-813f-36a8a98bcb12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/hand_landmarks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIVirtualMouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIVirtualMouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandTrackingModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/envs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FingerCountingProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/FingerCountingProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualPainter.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualPainter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeHandControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeHandControl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,32 +25,21 @@
     <SUITE FILE_PATH="coverage/AIVirtualMouse$AiVirtualMouseProject.coverage" NAME="AiVirtualMouseProject Coverage Results" MODIFIED="1657979276985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CVProject$VirtualPainter.coverage" NAME="VirtualPainter Coverage Results" MODIFIED="1659844607988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CVProject$HandTrackingTest.coverage" NAME="HandTrackingTest Coverage Results" MODIFIED="1658286338060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CVProject$FingerCountingProject.coverage" NAME="FingerCountingProject Coverage Results" MODIFIED="1659850725265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CVProject$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1658074834655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/../miniconda3/envs/hand/Lib/site-packages/mediapipe/python" />
     <SUITE FILE_PATH="coverage/HandTrackingProject$HandTrackingTest.coverage" NAME="HandTrackingTest Coverage Results" MODIFIED="1657987677147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CVProject$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1658659197628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CVProject$AIVirtualMouse.coverage" NAME="AIVirtualMouse Coverage Results" MODIFIED="1659850408679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CVProject$AIVirtualMouse.coverage" NAME="AIVirtualMouse Coverage Results" MODIFIED="1659850719531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AIVirtualMouse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="333">
+              <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#146#156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HandTrackingModule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="50" />
-              <folding>
-                <element signature="e#168#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +57,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>findPosition</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,20 +72,21 @@
         <option value="$PROJECT_DIR$/HandTrackingMin.py" />
         <option value="$PROJECT_DIR$/MyNewGameHandTracking.py" />
         <option value="$PROJECT_DIR$/PoseEstimationMin.py" />
-        <option value="$PROJECT_DIR$/VolumeHandControl.py" />
         <option value="$PROJECT_DIR$/collect_data.py" />
         <option value="$PROJECT_DIR$/HandTrackingTest.py" />
         <option value="$PROJECT_DIR$/HandTrackingTest.py" />
-        <option value="$PROJECT_DIR$/VirtualPainter.py" />
         <option value="$PROJECT_DIR$/a.txt" />
         <option value="D:/Annaconda3/envs/hand/Lib/site-packages/cv2/__init__.py" />
         <option value="$PROJECT_DIR$/envs.txt" />
         <option value="$PROJECT_DIR$/HandTrackingModule.py" />
+        <option value="$PROJECT_DIR$/FingerCountingProject.py" />
+        <option value="$PROJECT_DIR$/VolumeHandControl.py" />
+        <option value="$PROJECT_DIR$/VirtualPainter.py" />
         <option value="$PROJECT_DIR$/AIVirtualMouse.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-112" />
     <option name="y" value="38" />
     <option name="width" value="1936" />
@@ -140,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AIVirtualMouse">
+  <component name="RunManager" selected="Python.FingerCountingProject">
     <configuration name="AIVirtualMouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="keypoint" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +153,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="FingerCountingProject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="keypoint" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FingerCountingProject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HandTrackingModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="keypoint" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,28 +189,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HandTrackingModule.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HandTrackingTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="keypoint" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HandTrackingTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FingerCountingProject" />
         <item itemvalue="Python.AIVirtualMouse" />
         <item itemvalue="Python.VirtualPainter" />
         <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.collect_data" />
-        <item itemvalue="Python.HandTrackingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -291,22 +281,23 @@
       <workItem from="1659842684741" duration="36000" />
       <workItem from="1659842724641" duration="3150000" />
       <workItem from="1659845919839" duration="169000" />
-      <workItem from="1659846102269" duration="4331000" />
+      <workItem from="1659846102269" duration="5214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35514000" />
+    <option name="totallyTimeSpent" value="36397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-112" y="38" width="1936" height="1056" extended-state="1" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20439914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21143174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966924" weight="0.36808512" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966924" visible="true" weight="0.36808512" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944875" weight="0.3981289" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,16 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HandTrackingMin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#84#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Annaconda3/envs/hand/Lib/site-packages/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -390,13 +371,6 @@
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -410,16 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VolumeHandControl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="49" column="68" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="49" selection-end-column="68" />
-          <folding>
-            <element signature="e#84#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-61957895/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -427,10 +391,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FingerCountingProject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="151">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#84#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HandTrackingMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#84#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VolumeHandControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
           <folding>
             <element signature="e#84#94#0" expanded="true" />
           </folding>
@@ -439,27 +430,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VirtualPainter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-904">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AIVirtualMouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="37" />
           <folding>
-            <element signature="e#146#156#0" expanded="true" />
+            <element signature="e#84#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HandTrackingModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="174">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#168#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIVirtualMouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <element signature="e#146#156#0" expanded="true" />
           </folding>
         </state>
       </provider>

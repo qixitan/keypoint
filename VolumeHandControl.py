@@ -39,7 +39,7 @@ if __name__ == '__main__':
     while True:
         success, img = cap.read()
         img = detector.findHands(img)
-        lmList = detector.findPosition(img, draw=False)
+        lmList, _ = detector.findPosition(img, draw=False)
         if len(lmList) != 0:
             # print(lmList[4], lmList[8])
             x1, y1 = lmList[4][1], lmList[4][2]
