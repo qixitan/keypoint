@@ -1,5 +1,5 @@
-opencv-python==4.5.1.38
-mediapipe
+opencv-python==4.5.4.38
+mediapipe==0.8.3.1
 ctypes
 comtypes
 pycaw
